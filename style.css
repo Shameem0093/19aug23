@@ -21,11 +21,12 @@ html, body{
 .left{
     width: 40%;
     height: 100%;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     position: relative;
     
+    
 }
-.lnav{
+.lnav{  
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -43,18 +44,40 @@ html, body{
     color: rgb(230, 59, 144);
     font-size: 17px;
 }
+#textcenter{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
-.left text{
-    margin-top: 50px;
 }
-.left h1{
+#textcenter h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+#textcenter p{
+    opacity: .6;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#textcenter a{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #000;
+}
 
-}
 
 .right{
     width: 60%;
     height: 100%;
-    background-color: brown;
+
 }
 .rtop{
     width: 100%;
@@ -65,15 +88,21 @@ html, body{
 .rtopleft{
     width: 50%;
     height: 100%;
-    background-color: crimson;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/17/23/strawberries-1835934_1280.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .rtopright{
     width: 50%;
     height: 100%;
-    background-color: rgb(43, 226, 73);
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/12/22/14/strawberries-3221094_1280.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .rbottom{
     width: 100%;
     height: 50%;
-    background-color: aquamarine;
+    background-image: url(https://cdn.pixabay.com/photo/2021/11/30/08/24/strawberries-6834750_1280.jpg);
+    background-size: cover;
+    background-position: center;
 }
