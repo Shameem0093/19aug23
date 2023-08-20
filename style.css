@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    
+
+}
+.left{
+    width: 40%;
+    height: 100%;
+    background-color: aliceblue;
+    position: relative;
+    
+}
+.lnav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    
+}
+.lnavr a{
+    margin-left: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+.lnavr i{
+    color: rgb(230, 59, 144);
+    font-size: 17px;
+}
+
+.left text{
+    margin-top: 50px;
+}
+.left h1{
+
+}
+
+.right{
+    width: 60%;
+    height: 100%;
+    background-color: brown;
+}
+.rtop{
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+    display: flex;
+}
+.rtopleft{
+    width: 50%;
+    height: 100%;
+    background-color: crimson;
+}
+.rtopright{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(43, 226, 73);
+}
+.rbottom{
+    width: 100%;
+    height: 50%;
+    background-color: aquamarine;
+}
